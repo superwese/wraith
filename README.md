@@ -1,15 +1,12 @@
 ![Wraith logo](https://raw.githubusercontent.com/BBC-News/wraith/master/assets/wraith-logo.png)
 
-[![build status](https://secure.travis-ci.org/BBC-News/wraith.png?branch=master)](http://travis-ci.org/BBC-News/wraith)
-[![rubygems version](https://img.shields.io/gem/v/wraith.svg)](https://rubygems.org/gems/wraith)
-[![codeclimate report](https://codeclimate.com/github/BBC-News/wraith.png)](https://codeclimate.com/github/BBC-News/wraith)
 
 Wraith is a screenshot comparison tool, created by developers at BBC News.
 
-This fork deploys a Dockerfile with chrome installed.
-Must add --no_sandbox to chrome.options in save_images.rb
-May add additional       setup_folders(config) in cli.rb#latest
-
+This fork publishes a Docker image named 'wraith-chrome' to the docker registry
+The enclosed wraith version is patched:
+There is an additional setup_folders() when running `wraith latest` to ensure the directory structure exists when screenshots are taken.
+--no-sandbox is added to the `chrome.options` so chrome runs in the container.  
 
 [Documentation](http://bbc-news.github.io/wraith/) • [Source](http://github.com/bbc-news/wraith) • [Responsive News Website](http://responsivenews.co.uk)
 
