@@ -6,6 +6,11 @@
 
 Wraith is a screenshot comparison tool, created by developers at BBC News.
 
+This fork deploys a Dockerfile with chrome installed.
+Must add --no_sandbox to chrome.options in save_images.rb
+May add additional       setup_folders(config) in cli.rb#latest
+
+
 [Documentation](http://bbc-news.github.io/wraith/) • [Source](http://github.com/bbc-news/wraith) • [Responsive News Website](http://responsivenews.co.uk)
 
 ## What is it?
