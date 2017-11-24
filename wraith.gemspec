@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = 'Wraith is a screenshot comparison tool, created by developers at BBC News.'
   spec.description   = 'Wraith is a screenshot comparison tool, created by developers at BBC News.'
   spec.homepage      = 'https://github.com/BBC-News/wraith'
-  spec.license       = 'Apache 2'
+  spec.license       = 'Apache2'
 
   spec.files         = `git ls-files`.split($INPUT_RECORD_SEPARATOR)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
@@ -30,6 +30,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'log4r'
   spec.add_runtime_dependency 'thor'
   spec.add_runtime_dependency 'parallel'
-  spec.add_runtime_dependency 'selenium-webdriver', "~> 3.5"
+  spec.add_runtime_dependency 'selenium-webdriver', "~> 3.7"
   spec.add_runtime_dependency 'chromedriver-helper', "~> 1.1"
 end
