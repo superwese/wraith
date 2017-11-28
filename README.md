@@ -3,7 +3,7 @@
 
 Wraith is a screenshot comparison tool, created by developers at BBC News.
 
-This fork publishes a Docker image named 'wraith-chrome' to the docker registry.
+This fork publishes a Docker image named 'superwese/wraith-chrome' to the docker registry.
 Neither casperjs nor phantomjs is installed.
 
 
