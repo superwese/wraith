@@ -5,8 +5,9 @@ Wraith is a screenshot comparison tool, created by developers at BBC News.
 
 This fork publishes a Docker image named 'wraith-chrome' to the docker registry
 The enclosed wraith version is patched:
-There is an additional setup_folders() when running `wraith latest` to ensure the directory structure exists when screenshots are taken.
---no-sandbox is added to the `chrome.options` so chrome runs in the container.  
+
+- There is an additional setup_folders() when running `wraith latest` to ensure the directory structure exists when screenshots are taken.
+- --no-sandbox is added to the `chrome.options` so chrome runs in the container.  
 
 [Documentation](http://bbc-news.github.io/wraith/) • [Source](http://github.com/bbc-news/wraith) • [Responsive News Website](http://responsivenews.co.uk)
 
