@@ -1,3 +1,4 @@
+*.gem
 .bundle/*
 shots/
 shots_chrome/
@@ -6,3 +7,5 @@ data.txt
 .DS_Store
 *.swp
 Gemfile.lock
+.idea/
+wraith.iml

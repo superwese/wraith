@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = 'Wraith is a screenshot comparison tool, created by developers at BBC News.'
   spec.description   = 'Wraith is a screenshot comparison tool, created by developers at BBC News.'
   spec.homepage      = 'https://github.com/BBC-News/wraith'
-  spec.license       = 'Apache2'
+  spec.license       = 'Apache-2.0'
 
   spec.files         = `git ls-files`.split($INPUT_RECORD_SEPARATOR)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
@@ -20,7 +20,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'pry'
   spec.add_development_dependency 'rspec'
-  spec.add_development_dependency 'casperjs'
 
   spec.add_runtime_dependency 'rake'
   spec.add_runtime_dependency 'image_size'
