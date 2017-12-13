@@ -8,7 +8,7 @@ Neither casperjs nor phantomjs is installed.
 
 
 The enclosed wraith version is patched:
--There is an additional `setup_folders() when running `wraith latest` to ensure the directory structure exists when screenshots are taken.
+-There is an additional `setup_folders()` when running `wraith latest` to ensure the directory structure exists when screenshots are taken.
 -`---no-sandbox` is added to the `chrome.options` so chrome runs in the container.  
 
 
